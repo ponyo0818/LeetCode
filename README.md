@@ -1,4 +1,4 @@
-Hi welcome to the "Solutions and Explanation for LeetCode Dummy" 
+Hi welcome to the "Solutions and Explanation for LeetCode Dummy" :D
 
 As a noob who just started to solve problems on Leetcode, I am taking this
 opportunity to gain knowledge and horn my Java programming skill.
