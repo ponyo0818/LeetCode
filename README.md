@@ -1,7 +1,7 @@
 Hi welcome to the "Solutions and Explanation for LeetCode Dummy" :D
 
 As a noob who just started to solve problems on Leetcode, I am taking this
-opportunity to gain knowledge and horn my Java programming skill.
+opportunity to gain knowledge and hone my Java programming skill.
 
 I enjoy reading and understanding the elegant code wrote by geniuses on LeetCode discussion platform.
 
