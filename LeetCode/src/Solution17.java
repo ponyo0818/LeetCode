@@ -70,6 +70,7 @@ public class Solution17 {
                 String letter = phone.get(digit).substring(i, i + 1);
                 // append the current letter to the combination
                 // and proceed to the next digits
+                //* Using + Operator is one of the easiest way to concatenate two strings in java
                 backtrack(combination + letter, next_digits.substring(1));
             }
         }
