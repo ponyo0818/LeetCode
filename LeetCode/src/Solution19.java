@@ -57,7 +57,7 @@ public class Solution19 {
         }
         // relink next pointer of the (L - n) th node to the (L - n + 2) th node
         first.next = first.next.next;
-        return dummy.next; //return the head which is a part of the modified LinkedList
+        return dummy.next; //return the head which is a part of the modified LinkedList, A LinkedList can be represented by a ListNode.
     }
 
     /**
