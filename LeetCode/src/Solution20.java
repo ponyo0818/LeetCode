@@ -19,6 +19,9 @@ public class Solution20 {
      * Stack approach
      * iterate the string, push the open parentheses onto the stack, keep check the close parentheses in the string,
      * once found, pop the open parentheses in the stack.
+     *
+     * Time complexity : O(n) because we simply traverse the given string one character at a time and push and pop
+     * operations on a stack take O(1) time.
      * @param s
      * @return
      */
