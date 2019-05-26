@@ -19,6 +19,16 @@
  * of 32-bit for the variable of int type. On the other hand, the data type long has the width of 64-bit
  * for the variable of long type.
  * ---------------------
+ *
+ * Say dividend / divisor = N
+ * The complexity will be O((logN)^2).
+ *
+ * Take a look at the worst case:
+ * dividend = 1+2+4+8+16... = 2*N + 1
+ * divisor = 2
+ * Then in the first loop, the time complexity will be log(N),
+ * and in the second run, it will reduce to log(N/2) = logN - 1,
+ * so the total number of steps will be 1+2+...+ logN-1+ logN = O((logN)^2).
  */
 
 public class Solution29 {
