@@ -13,9 +13,9 @@ on Leetcode.
 #  Solutions for problems on LeetCode
 Top Interview Questions (24/145 questions)
 
-1. Two Sum
+(1). Two Sum
 
-5. Longest Palindromic Substring
+(5). Longest Palindromic Substring
 
 7. Reverse Integer
 
