@@ -17,32 +17,32 @@ Top Interview Questions (24/145 questions)
 
 (5). Longest Palindromic Substring
 
-7. Reverse Integer
+(7). Reverse Integer
 
-8. String to Integer (atoi)
+(8). String to Integer (atoi)
 
-11. Container With Most Water
+(11). Container With Most Water
 
-13. Roman to Integer
+(13). Roman to Integer
 
-14. Longest Common Prefix
+(14). Longest Common Prefix
 
-15. 3Sum
+(15). 3Sum
 
-17. Letter Combinations of a Phone Number
+(17). Letter Combinations of a Phone Number
 
-19. Remove Nth Node From End of List
+(19). Remove Nth Node From End of List
 
-20. Valid Parentheses
+(20). Valid Parentheses
 
-21. Merge Two Sorted Lists
+(21). Merge Two Sorted Lists
 
-22. Merge k Sorted Lists
+(22). Merge k Sorted Lists
 
-26. Remove Duplicates from Sorted Array
+(26). Remove Duplicates from Sorted Array
 
-28. Implement strStr()
+(28). Implement strStr()
 
-29. Divide Two Integers
+(29). Divide Two Integers
 
 Keep updating...
