@@ -1,4 +1,5 @@
-# Ready-to-run (contain the main function) java files.
+# Ready-to-run (contain the main function) java files. 
+一个小白的LeetCode解题和学习记录
 Hi welcome to the "Solutions and Explanation for LeetCode Dummy" :D
 
 As a noob who just started to solve problems on Leetcode, I am taking this
