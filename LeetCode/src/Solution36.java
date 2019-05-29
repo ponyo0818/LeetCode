@@ -36,7 +36,7 @@
 import java.util.*;
 
 public class Solution36 {
-    public boolean isValidSoduku(char [][] board){
+    public boolean isValidSudoku(char [][] board){
         for (int i=0; i<9; i++){
             //Create Hashsets for rows, columns and sub cubes (3*3), reset them in every loop
             HashSet<Character> rows = new HashSet<Character>();
@@ -81,6 +81,6 @@ public class Solution36 {
                 {'.','6','.','.','.','.','2','8','.'},
                 {'.','.','.','4','1','9','.','.','5'},
                 {'.','.','.','.','8','.','.','7','9'}};
-        System.out.println(newSolution.isValidSoduku(board));
+        System.out.println(newSolution.isValidSudoku(board));
     }
 }
