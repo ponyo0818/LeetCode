@@ -1,4 +1,3 @@
-import java.lang.reflect.Array;
 import java.util.*;
 
 /**
@@ -17,6 +16,11 @@ import java.util.*;
  * ]
  * The key of this question is sorted anagrams are the same
  * Use Hashmap to store anagrams (list<String>) and sorted anagrams as the key (String)
+ *
+ * Time Complexity: O(NKlogK), where N is the length of strs, and K is the maximum length of a string in strs.
+ * The outer loop has complexity O(N) as we iterate through each string. Then, we sort each string in O(KlogK) time.
+ *
+ * Space Complexity: O(NK), the total information content stored in ans.
  *
  * ----------
  * 1. allow you to add new values to any list that is contained as a value in the map
@@ -38,7 +42,7 @@ public class Solution49 {
         //Create an Hashmap: Key:sorted string, Value: anagrams
         Map<String, List<String>> map = new HashMap<String, List<String>>();
         for (String s: strs){
-            //store each chars in s(String) in an array
+            //store each chars in s(String) in an array, to encode a key for a string
             char[] charInString = s.toCharArray();
             Arrays.sort(charInString);//sort the chars
             String keyStr = String.valueOf(charInString);//convert array<char> back to String
