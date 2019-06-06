@@ -58,7 +58,6 @@ Top Interview Questions (24/145 questions)
 
 (48). Rotate Image    
 
-
 (49). Group Anagrams    
 
 (50). Pow(x, n)   
@@ -71,5 +70,6 @@ Top Interview Questions (24/145 questions)
 
 (69). Sqrt(x)    
 
+(206). Reverse Linked List
 
 Keep updating...
