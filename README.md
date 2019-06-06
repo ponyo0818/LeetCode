@@ -46,4 +46,30 @@ Top Interview Questions (24/145 questions)
 
 (29). Divide Two Integers
 
+(33). Search in Rotated Sorted Array
+
+(34). Find First and Last Position of Element in Sorted Array
+
+(36). Valid Sudoku
+
+(38). Count and Say    
+
+(46). Permutations  
+
+(48). Rotate Image    
+
+(49). Group Anagrams    
+
+(50). Pow(x, n)   
+
+(53). Maximum Subarray   
+
+(54). Spiral Matrix    
+
+(55).	Jump Game   
+
+(69). Sqrt(x)    
+
+(206). Reverse Linked List
+
 Keep updating...
