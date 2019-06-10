@@ -21,6 +21,12 @@ import java.util.Arrays;
  *
  */
 public class Solution66 {
+    /**
+     * Iterative Approach
+     * Time complexity: O(n)
+     * @param digits
+     * @return
+     */
     public int[] plusOne(int[] digits) {
         //traverse from the end of the array
         for (int i = digits.length - 1; i >=0; i--) {
