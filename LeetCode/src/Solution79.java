@@ -25,6 +25,11 @@
  * match any character we met before, which is another way to avoid repeat work. When we finish the search start from
  * board[i][j] this time, in order to prepare for the next round search, we need to revel the mask, recover the
  * character which is masked, so we do board[y][x] ^= 256 again.
+ *
+ * The ASCII characters are numbered from 0 to 255
+ *
+ * 2. ^=
+ *bitwise exclusive OR and assignment operator.
  */
 public class Solution79 {
     /**
@@ -45,15 +50,25 @@ public class Solution79 {
     }
 
     private boolean exist(char[][] board, int y, int x, char[] word, int i) {
-        if (i == word.length) return true;//when word length are zero return true
+        if (i == word.length) return true;//when i reach the word length return true
         if (y<0 || x<0 || y == board.length || x == board[y].length) return false;//check if out of border
-        if (board[y][x] != word[i]) return false; //check the content
+        if (board[y][x] != word[i]) return false; //check the content, return false once found mismatch
         board[y][x] ^= 256;// flip the bit to indicate whether the current character is visited, as each character can only be used once
         boolean exist = exist(board, y, x+1, word, i+1)
                 || exist(board, y, x-1, word, i+1)
                 || exist(board, y+1, x, word, i+1)
                 || exist(board, y-1, x, word, i+1); //check the 4 different connection
-        board[y][x] ^= 256; //revel the mask, flip the bit back again
+        board[y][x] ^= 256; //remove the mask, flip the bit back again
         return exist;
+    }
+
+    public static void main (String[] args){
+        Solution79 ns =new Solution79();
+        char[][] board =new char[][]{
+                {'A','B','C','D'},
+                {'S','F','C','S'},
+                {'A','D','E','E'}
+        };
+        System.out.println(ns.exist(board, "ABCCED"));
     }
 }
