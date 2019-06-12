@@ -70,6 +70,20 @@ Top Interview Questions (24/145 questions)
 
 (69). Sqrt(x)    
 
+(70). Climbing Stairs    
+
+(73). Set Matrix Zeroes    
+
+(75). Sort Colors    
+
+(78). Subsets    
+
+(79). Word Search    
+
+(88). Merge Sorted Array    
+
+(98). Validate Binary Search Tree    
+
 (206). Reverse Linked List
 
 Keep updating...
