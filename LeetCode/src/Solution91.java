@@ -15,6 +15,10 @@
  * Input: "12"
  * Output: 2
  * Explanation: It could be decoded as "AB" (1 2) or "L" (12).
+ *
+ *  0' should not be considered as a valid encoding.
+ * '01', '02'...'09' are also not valid encodings.
+ * '10'.'20' are valid encodings.
  */
 public class Solution91 {
     /**
