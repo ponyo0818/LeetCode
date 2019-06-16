@@ -12,7 +12,7 @@ on Leetcode.
 
 #  ----Learning via solving problems on LeetCode-----
 #  Solutions for problems on LeetCode
-Top Interview Questions (24/145 questions)
+Top Interview Questions (48/145 questions)
 
 (1). Two Sum
 
