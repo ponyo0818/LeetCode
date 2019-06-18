@@ -7,7 +7,7 @@ opportunity to gain knowledge and hone my Java programming skill.
 
 I enjoy reading and understanding the elegant code wrote by geniuses on LeetCode discussion platform.
 
-Here are the solutions with very detailed explanation, and some notes. I hope it will help the people who just started their journey
+Here are the solutions with very detailed explanation, and learning notes. I hope it will help the people who just started their journey
 on Leetcode.
 
 #  ----Learning via solving problems on LeetCode-----
