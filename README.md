@@ -1,7 +1,7 @@
 # Ready-to-run (contain the main function) java files. 
 一个小白的LeetCode解题和学习记录
 ---------------------------------------
-![Sona and Seven Baby Poros](https://user-images.githubusercontent.com/43736431/59805635-5e5d9900-92e1-11e9-92d8-ec3f86eb9a2d.jpg)
+![Sona and Seven Baby Poros](https://user-images.githubusercontent.com/43736431/59805827-e80d6680-92e1-11e9-9264-da11d73e4f9f.jpg)
 Hi welcome to the "Solutions and Explanation for LeetCode Dummy" :D
 
 As a noob who just started to solve problems on Leetcode, I am taking this
