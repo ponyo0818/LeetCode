@@ -1,5 +1,7 @@
 # Ready-to-run (contain the main function) java files. 
 一个小白的LeetCode解题和学习记录
+---------------------------------------
+![Sona and Seven Baby Poros](https://user-images.githubusercontent.com/43736431/59805827-e80d6680-92e1-11e9-9264-da11d73e4f9f.jpg)
 Hi welcome to the "Solutions and Explanation for LeetCode Dummy" :D
 
 As a noob who just started to solve problems on Leetcode, I am taking this
@@ -7,7 +9,7 @@ opportunity to gain knowledge and hone my Java programming skill.
 
 I enjoy reading and understanding the elegant code wrote by geniuses on LeetCode discussion platform.
 
-Here are the solutions with very detailed explanation, and some notes. I hope it will help the people who just started their journey
+Here are the solutions with very detailed explanation, and learning notes. I hope it will help the people who just started their journey
 on Leetcode.
 
 #  ----Learning via solving problems on LeetCode-----
