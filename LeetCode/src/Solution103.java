@@ -8,6 +8,7 @@ import java.util.Queue;
  * https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
  * 102 的followup题目！
  * key solution：加一个boolean zigzag or (height%2 ==0)
+ * *from right to left just need to use LinkedList.add(0, value) method
  *
  * Given a binary tree, return the zigzag level order traversal of its nodes' values. (ie, from left to right, then right to left for the next level and alternate between).
  *
