@@ -90,7 +90,7 @@ public class Solution104 {
         if(root == null) {
             return 0;
         }
-        Queue<TreeNode> queue = new LinkedList<>();
+        Queue<TreeNode> queue = new LinkedList<>(); //use a linkedlist to implement queue
         queue.offer(root);
         int count = 0;
         while(!queue.isEmpty()) {
