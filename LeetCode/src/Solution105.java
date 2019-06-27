@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 105. Construct Binary Tree from Preorder and Inorder Traversal
  * https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
@@ -60,6 +63,42 @@ public class Solution105 {
         root.right = helper(preStart + inIndex - inStart + 1, inIndex + 1, inEnd, preorder, inorder);
         return root;
     }
+
+
+    /**
+     * HashMap approach
+     * use HashMap to cache the inorder[] position
+     * @param preorder
+     * @param inorder
+     * @return
+     */
+    public TreeNode buildTreeHM(int[] preorder, int[] inorder) {
+        Map<Integer, Integer> inMap = new HashMap<Integer, Integer>();
+
+        for(int i = 0; i < inorder.length; i++) {
+            inMap.put(inorder[i], i);
+        }
+
+        return helperHM(preorder, 0, preorder.length - 1, inorder, 0, inorder.length - 1, inMap);
+    }
+
+    public TreeNode helperHM(int[] preorder, int preStart, int preEnd, int[] inorder, int inStart, int inEnd, Map<Integer, Integer> inMap) {
+        if(preStart > preEnd || inStart > inEnd) return null;
+
+        TreeNode root = new TreeNode(preorder[preStart]);
+        int inRoot = inMap.get(root.val);
+        int numsLeft = inRoot - inStart;
+
+        root.left = helperHM(preorder, preStart + 1, preStart + numsLeft, inorder, inStart, inRoot - 1, inMap);
+        root.right = helperHM(preorder, preStart + numsLeft + 1, preEnd, inorder, inRoot + 1, inEnd, inMap);
+        return root;
+    }
+
+
+
+
+
+
 
     public static void main (String[]args){
         Solution105 ns =new Solution105();
