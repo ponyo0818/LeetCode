@@ -14,7 +14,7 @@ on Leetcode.
 
 #  ----Learning via solving problems on LeetCode-----
 #  Solutions for problems on LeetCode
-Top Interview Questions (51145 questions)
+Top Interview Questions (51/145 questions)
 
 (1). Two Sum
 
@@ -93,5 +93,9 @@ Top Interview Questions (51145 questions)
 (102).
 
 (103).
+
+(105). Construct Binary Tree from Preorder and Inorder Traversal
+
+(108).Convert Sorted Array to Binary Search Tree
 
 Keep updating...
