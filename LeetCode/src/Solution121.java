@@ -27,6 +27,12 @@
  * and find a contiguous subarray giving maximum profit. If the difference falls below 0, reset it to zero.
  */
 public class Solution121 {
+    /**
+     * Kadane's Algorithm approach
+     * Time complexity O(n)
+     * @param prices
+     * @return
+     */
     public int maxProfit(int[] prices) {
         if(prices.length<2) return 0;
         int diff[] = new int[prices.length-1];
@@ -47,6 +53,28 @@ public class Solution121 {
             maxCur = Math.max(0, maxCur+nums[i]);
         }
         return maxSoFar;
+    }
+
+    /**
+     * Find so far min price approach.
+     * O(N) time and O(1) space
+     * @param prices
+     * @return maxProfit2
+     */
+    public int maxProfit2(int[] prices) {
+        if (prices.length == 0) {
+            return 0 ;
+        }
+        int max = 0 ;
+        int soFarMin = prices[0] ;
+        for (int i = 0 ; i < prices.length ; ++i) {
+            if (prices[i] > soFarMin) {
+                max = Math.max(max, prices[i] - soFarMin) ;
+            } else{
+                soFarMin = prices[i];
+            }
+        }
+        return  max ;
     }
 
     public static void main(String [] args){
