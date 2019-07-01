@@ -1,4 +1,4 @@
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
 
 /**
@@ -19,7 +19,13 @@ import java.util.ArrayList;
  *    -3   9
  *    /   /
  *  -10  5
+ *
+ *  !BST-balanced search tree
+ *  1. left subtree of a node contains only nodes with value < it's values
+ *  2. right subtree of a node contains only nodes with value > it's values
+ *  3. The left and right subtree each must also be a BST. There must be no duplicate nodes.
  */
+
 
 public class Solution108 {
     static class TreeNode{
