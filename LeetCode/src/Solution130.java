@@ -69,7 +69,7 @@ public class Solution130 {
     private void dfs(char[][] board, int i, int j) {
         if (i < 0 || i >= board.length || j < 0 || j >= board[0].length) return;
         if (board[i][j] == 'X' || board[i][j] == '*') return;
-        board[i][j] = '*';
+        board[i][j] = '*'; //make O to *
         dfs(board, i - 1, j);
         dfs(board, i + 1, j);
         dfs(board, i, j - 1);
