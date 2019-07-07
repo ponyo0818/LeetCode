@@ -44,7 +44,7 @@ public class Solution131 {
                     curList.add(s.substring(pos,i+1));
                     dfs(s,i+1,curList,resList);
                     //The object of curList for one loop of the result, is just one obj.
-                    // So the item in the list should be clean after it has been userd
+                    // So the item in the list should be clean after it has been used
                     curList.remove(curList.size()-1);
                 }
             }
