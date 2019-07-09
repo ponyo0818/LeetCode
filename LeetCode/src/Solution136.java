@@ -26,6 +26,15 @@ public class Solution136 {
      * @param nums
      * @return
      * O(n) time complexity and space complexity
+     * About HashSet and HashMap
+     * 1. HashSet is a set, e.g. {1, 2, 3, 4, 5, 6, 7},
+     *
+     * HashMap is a key -> value pair(key to value) map, e.g. {a -> 1, b -> 2, c -> 2, d -> 1}
+     *
+     * 2. HashSet is slower then HashMap,
+     *
+     * 3. HashSet does’t allow duplicate values. HashMap store key, value pairs and it does not allow
+     * duplicate keys. If key is duplicate then old key is replaced with new value.
      */
     public int singleNumber1(int[] nums) {
         HashMap<Integer, Integer> hashMap = new HashMap<Integer, Integer>();
