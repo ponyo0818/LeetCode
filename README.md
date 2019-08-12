@@ -14,7 +14,7 @@ on Leetcode.
 
 #  ----Learning via solving problems on LeetCode-----
 #  Solutions for problems on LeetCode
-Top Interview Questions (70/145 questions)
+Top Interview Questions (71/145 questions)
 https://leetcode.com/problemset/top-interview-questions/
 
 (1). Two Sum
