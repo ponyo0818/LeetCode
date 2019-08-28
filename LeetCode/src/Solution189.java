@@ -51,6 +51,10 @@ public class Solution189 {
      * 1. reverse all the elements of the array.
      * 2. reverse first k elements
      * 3. reverse the rest n - k elements
+     *
+     * Time complexity : O(n). n elements are reversed a total of three times.
+     *
+     * Space complexity : O(1). No extra space is used.
      * @param nums
      * @param k
      */
