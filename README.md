@@ -111,6 +111,11 @@ https://leetcode.com/problemset/top-interview-questions/
 
 
 最近在准备考试，蜗速刷题。。。
+
 8/12 周日考试，考完继续恢复正常刷题节奏
+
 8/18 要去考试了，考完要保证每天2题，finger crossed!
+
+9/2 开学了，load好重，但每天起码要刷1题！
+
 Keep updating...
