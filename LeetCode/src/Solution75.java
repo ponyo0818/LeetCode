@@ -21,6 +21,8 @@ import java.util.Arrays;
  * First, iterate the array counting number of 0's, 1's, and 2's, then overwrite array with total number of 0's, then
  * 1's and followed by 2's.
  * Could you come up with a one-pass algorithm using only constant space?
+ *
+ * 只遍历一次：用双指针，一前一后
  */
 public class Solution75 {
     /**

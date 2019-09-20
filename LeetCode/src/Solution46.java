@@ -40,7 +40,7 @@ public class Solution46 {
         /** size() for ArrayList, length for array to return the number of elements */
         if(tempList.size() == nums.length){
             //when the tempList reach the length of nums, add to the final list
-            list.add(new ArrayList<>(tempList));
+            list.add(new ArrayList<>(tempList)); //created a new ArrayList whose elements are the same as tempList so clean the tempList does not effect this
         }
         else{
             //i=0, start to fill the nums[0] to the tempList[0], try all different numbers in a certain position
