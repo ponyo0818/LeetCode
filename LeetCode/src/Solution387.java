@@ -57,4 +57,10 @@ public class Solution387 {
         return -1;
     }
 
+    public static void main (String [] args){
+        Solution387 ns = new Solution387();
+        String s = "leetcode";
+        System.out.println(ns.firstUniqChar1(s));
+    }
+
 }
